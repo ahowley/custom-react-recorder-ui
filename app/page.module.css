@@ -1,3 +1,21 @@
 .main {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
   font-size: 1.25rem;
+}
+
+.header {
+  border-bottom: 1px solid var(--bg-interactable);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
 }

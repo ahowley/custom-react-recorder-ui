@@ -1,0 +1,23 @@
+.recorder {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: fit-content;
+  padding: 0 0.5rem;
+  background-color: var(--bg-interactable);
+
+  .button,
+  .button-placeholder {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+  }
+
+  .visualizer-skeleton {
+    width: 332px;
+    height: 1px;
+    margin: 22px 0;
+    background-color: var(--content-global);
+  }
+}

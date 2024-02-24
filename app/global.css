@@ -1,0 +1,17 @@
+:root {
+  --bg-global: #ffffff;
+  --bg-interactable: #d9d9d9;
+  --bg-range-buffer-played: #95dca5;
+  --bg-range-buffer-loaded: #c1c5c2;
+  --content-global: #000000;
+  --content-placeholder: #929292;
+}
+
+.screen-reader-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

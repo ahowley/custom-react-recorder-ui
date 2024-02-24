@@ -3,8 +3,9 @@
   gap: 1rem;
   align-items: center;
   width: fit-content;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   background-color: var(--bg-interactable);
+  border-radius: 23px;
 
   .button,
   .button-placeholder {
